@@ -6,9 +6,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <NavBar />
-    </Router>
+    <div className="bg-gray-800 min-h-screen text-white">
+      <Router>
+        <NavBar />
+      </Router>
+    </div>
+
   );
 }
 
