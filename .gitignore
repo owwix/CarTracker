@@ -1,0 +1,41 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment folders
+venv/
+.env/
+.envrc
+.pipenv/
+Pipfile.lock
+
+# Ignore database files
+db.sqlite3
+*.sqlite3
+
+# Ignore Django secret keys and environment variables
+.env
+*.env
+config/settings/local.py
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore compiled and cached files
+*.mo
+*.swp
+
+# Ignore static and media files
+/static/
+media/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore JetBrains/PyCharm settings
+.idea/
